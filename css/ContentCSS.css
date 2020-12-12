@@ -1,0 +1,240 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+	
+}
+body{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+	background-color: #272727;
+}
+header{
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-color: #272727;
+}	
+
+main{
+	max-width: 1200px;
+	margin: auto;
+}
+ul{
+	list-style-type: none;
+	float: center;
+	
+}
+
+ul li{
+	position: absolute;
+	top: 10px;
+	display: inline-block;
+	margin-top:6px;
+	left: 100px;
+}
+
+ul li.active a{
+	background-color: black;
+	color: white;
+}
+
+ul li a{
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	text-decoration: none;
+	transition: 0.5s ease;
+	
+}
+
+li a:link{
+	background-color: black;
+	color: white;
+}
+li a:hover{
+	background-color: white;
+	color: black;
+ }
+ 
+li a:visited{
+	color: gray;
+ }
+ 
+li a:active{
+	 color: gray;
+ }
+
+.logo img{
+	position: absulute;
+	top: 0px;
+	left: 10px;
+	width: 100px;
+	height: auto;
+}		
+
+.mainimg{
+	position:absolute;
+	top:50px;
+	left:325px;
+}	
+	
+.box1{
+	position: absolute;
+	top: 300px;
+	right: 550px;
+	left: 60px;
+	width: 1000px;
+	height: auto;
+	padding: 10px;
+	background:black;
+	text-align: justify;
+	margin: auto;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+}
+
+.box2{
+	position: absolute;
+	top: 525px;
+	left: 300px;
+	right: 140px;
+	width: 1000px;
+	height: 110px;
+	padding: 7px;
+	background:black;
+	text-align: justify;
+	margin: auto;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+}
+
+
+.box1 h1{
+	text-align: center;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.box2 h1{
+	text-align: center;
+	color: white;
+	font-family: Century Gothic;
+}
+
+img{
+	position: absolute;
+	top: 375px;
+	left: 1150px;
+}
+
+.box2 img{
+	position: absolute;
+	top: -220px;
+	
+	left: 750px;
+	
+	height: 175px;
+	width: auto;
+}
+
+.box3{
+	position: absolute;
+	top: 180px;
+	left:1415px;
+	width: 140px;
+	font-size: 10px;
+	height: auto;
+	padding: 10px;
+	background:black;
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	
+}
+
+.box4{
+	position: absolute;
+	top: 710px;
+	left: 30px;
+	width: 1500px;
+	height: auto;
+	padding: 10px;
+	background:black;
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+}
+
+.twitter{
+	position: absolute;
+	top: 10px;
+	left:1525px;
+		background: url('../images/icon.png') no-repeat -50px 0px;
+		width: 50px;
+		height: 50px;
+	
+	}
+div.twitter:hover{
+		background: url('../images/icon.png') no-repeat -50px -50px;
+		width: 50px;
+		height: 50px;
+}
+
+.facebook{
+	position: absolute;
+	top: 10px;
+	left:1470px;
+	background: url('../images/icon.png') no-repeat 0px 0px;
+	width: 50px;
+	height: 50px;
+}
+
+div.facebook:hover {
+	background: url('../images/icon.png') no-repeat 0px -50px;
+	width: 50px;
+	height: 50px;
+}
+
+.youtube{
+	position: absolute;
+	top: 10px;
+	left:1415px;
+	background: url('../images/icon.png') no-repeat -200px 0px;
+	width: 50px;
+	height: 50px;
+}
+
+div.youtube:hover{
+	background: url('../images/icon.png') no-repeat -200px -50px;
+	width: 50px;
+	height: 50px;
+}
+
+.hand{
+	position: absolute;
+	top: 80px;
+	left:1456px;
+	background: url('../images/blmlink.png') no-repeat -62px -86px;
+	width: 75px;
+	height: 80px;
+}
+
+div.hand:hover{
+	background: url('../images/blmlink.png') no-repeat -61px -7px;
+	width: 77px;
+	height: 78px;
+}
+
+div.hand:visited{
+	background: url('../images/blmlink.png') no-repeat -61px -7px;
+	width: 77px;
+	height: 78px;
+}
+
+	
+	
